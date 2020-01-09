@@ -18,6 +18,9 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
         print(message)
         
+        //adding new line
+        print("this is a new line")
+        
         let reversed = reverse(text: "stressed")
         print(reversed)
         reverseLabel.text = reversed
